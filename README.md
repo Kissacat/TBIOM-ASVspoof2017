@@ -3,3 +3,9 @@ This repository contains code used in our recent research work [1] on the ASVspo
 
 
 [1] B. Chettri, E. Benetos, and B. L. Sturm, “Dataset artefacts in anti-spoofing systems: a case study on the asvspoof 2017 benchmark,” submitted to IEEE/ACM Transactions on Audio Speech and Language Processing (TASLP), 2020.
+
+
+-- The source codes - both python and matlab are located under codebase directory.
+The work in this paper is divided into two major parts. Part 1 consist of experimental setup and results for five different countermeasure models using the original dataset without any preprocessing. Part 2 on the other hand consist of our proposed approach of training countermeasure models on this dataset using speech endpoint detection during training and inference for robust and trustworthy predictions. 
+
+Please look at the readme.txt files inside each of the experimental folders that provides further details.
