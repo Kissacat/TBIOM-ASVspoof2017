@@ -4,7 +4,7 @@ positive='genuine'  #class for FAR
 negative='spoof'
 workDir=$PWD
 
-# Thresholds of the original ivector Cosine systems
+# Thresholds of the original GMM systems
 trainThreshold=0.327
 devThreshold=0.3334
 evalThreshold=0.712
@@ -13,7 +13,7 @@ columnsPerLine=3
 
 echo 'Make sure to create soft links to DATASET !!'
 codeBase=$workDir/../../../../codebase/
-audioBasePath=$workDir/../../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
+audioBasePath=$workDir/../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
 weightsPath=$workDir/../model/
 codeDir=$codeBase/python/mycodes/
 
