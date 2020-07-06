@@ -13,7 +13,7 @@ columnsPerLine=3
 
 echo 'Make sure to create soft links to DATASET !!'
 codeBase=$workDir/../../../../codebase/
-audioBasePath=$workDir/../../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
+audioBasePath=$workDir/../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
 weightsPath=$workDir/../model/
 codeDir=$codeBase/python/mycodes/
 

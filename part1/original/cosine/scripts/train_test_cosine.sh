@@ -15,7 +15,7 @@ pythonDir=$workDir/../../../../codebase/python/mycodes/
 ivectorPath=$workDir/../ivectors/
 predictionFolder=$workDir/../results/predictions/
 
-audioBase=$workDir/../../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
+audioBase=$workDir/../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
 
 # We pass the following files as protocals
 trainProtocal=$audioBase'/protocol_V2/ASVspoof2017_V2_train.trn.txt'

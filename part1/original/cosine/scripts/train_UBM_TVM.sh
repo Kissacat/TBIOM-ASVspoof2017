@@ -13,7 +13,7 @@ tvm_dim='100';
 
 echo 'Make sure to create soft links to DATASET !!'
 codeBase=$workDir/../../../../codebase/
-audioBase=$workDir/../../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
+audioBase=$workDir/../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
 gmmPath=$workDir/../model/
 matlabDir=$codeBase/matlab/mycodes/
 
