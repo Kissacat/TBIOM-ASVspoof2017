@@ -3,7 +3,7 @@
 # Extract 4 seconds unified power spectrograms
 
 workDir=$PWD
-audioBasePath=$workDir/../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
+audioBasePath=$workDir/../../../../datasets/ASVSpoof2017_v2.0/   #Dataset folder must be created with symbolic link
 codeDir=$workDir/../../../../codebase/python/mycodes/
    
 fft=1728
@@ -11,8 +11,7 @@ window_size=$fft
 hop=160
 duration=4
 
-featureBase=$workDir/../../../power_spectrograms/original/'$duration'sec_'$fft'FFT/
-#'/import/c4dm-05/bc305/features/ASVspoof2017/power_spectrograms/original/'$duration'sec_'$fft'FFT/'
+featureBase=$workDir/../../../../features/power_spectrograms/original/'$duration'sec_'$fft'FFT/
 
 cd $codeDir
 
